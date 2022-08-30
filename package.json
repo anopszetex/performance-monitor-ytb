@@ -4,7 +4,8 @@
   "description": "An application to monitor Web APIs performance using the JS Decorators proposal with no frameworks. ### ref: [**youtube video**](https://youtu.be/CS03W_YSdJc)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx babel-node src/index.js",
+    "dev": "npx nodemon --exec npm start "
   },
   "repository": {
     "type": "git",
