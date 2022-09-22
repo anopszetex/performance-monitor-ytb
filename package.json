@@ -4,6 +4,8 @@
   "description": "An application to monitor Web APIs performance using the JS Decorators proposal with no frameworks. ### ref: [**youtube video**](https://youtu.be/CS03W_YSdJc)",
   "main": "index.js",
   "scripts": {
+    "curl:post": "curl -X POST \"localhost:5000/people\" --data '{\"name\": \"and\"}'",
+    "curl:get": "curl \"localhost:5000/people\"",
     "start": "npx babel-node src/index.js",
     "dev": "npx nodemon --exec npm start "
   },
@@ -26,6 +28,7 @@
     "@babel/plugin-proposal-decorators": "^7.18.10"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "ntl": "^5.1.0"
   }
 }
