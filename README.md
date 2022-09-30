@@ -4,6 +4,9 @@ An application to monitor Web APIs performance using the JS Decorators proposal 
 
 ## Project Setup
 
+- [Node.js v16.17.0+](https://nodejs.org/en/download/)
+- [NPM 8.15.0+](https://docs.npmjs.com/cli/v8/commands/npm-install)
+
 ### Yarn
 ```sh
 # install dependencies
